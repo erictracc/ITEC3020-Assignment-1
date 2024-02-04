@@ -365,7 +365,10 @@ div  {
     vertical-align: top;
 }
 
-
+#featured-item1:hover, #featured-item2:hover, #featured-item3:hover, #featured-item4:hover, #featured-item5:hover, #featured-item6:hover, #featured-item7:hover {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
 
 footer {
     background-color: #1C1C1C;
