@@ -315,10 +315,6 @@ div  {
     font-family: "Arial Black", sans-serif;
 }
 
-.item-info li {
-    /*margin-bottom: 10px;*/
-}
-
 #price {
     color:black;
 }
@@ -328,13 +324,48 @@ div  {
 }
 
 .more_items {
-    width: 80%; /* Set the initial width */
-    margin: 20px auto; /* Center the div and add space on the top and bottom */
-    padding: 20px; /* Add space inside the div */
-    background-color: #1C1C1C; /* Background color for visualization */
-    border: 2px solid black; /* Border for visualization */
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1C1C1C;
+    border: 2px solid black;
     color: white;
 }
+
+.featured_items {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    height: 300px;
+}
+
+.featured_image {
+    width: 100px;
+    resize: both;
+    border: 3px solid black;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#featured-item1, #featured-item2, #featured-item3, #featured-item4, #featured-item5, #featured-item6, #featured-item7 {
+    background-color: white;
+    margin: 10px;
+    height: 225px;
+    color: black;
+    font-family: "Arial Black", sans-serif;
+    font-size: 11px;
+    width: 11%;
+    border: 3px solid black;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+
 
 footer {
     background-color: #1C1C1C;
